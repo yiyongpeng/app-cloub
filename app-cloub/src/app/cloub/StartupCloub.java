@@ -17,7 +17,7 @@ public class StartupCloub {
 		}
 		checkArgsVaild(args);
 		
-		String configPath = System.getProperty("conf", "config/");
+		String configPath = System.getProperty("conf", "../conf/");
 		String bindAddress = "0.0.0.0:" + args[0];
 		String beansLocation = configPath + "beans.xml";
 		String exportLocation = configPath + "export.properties";
