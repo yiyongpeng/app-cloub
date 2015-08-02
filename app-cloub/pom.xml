@@ -13,6 +13,12 @@
 			<groupId>app.net</groupId>
 			<artifactId>app-rpc</artifactId>
 			<version>0.0.3-SNAPSHOT</version>
+			<exclusions>
+			    <exclusion>
+			        <artifactId>spring</artifactId>
+			        <groupId>spring</groupId>
+			    </exclusion>
+			</exclusions>
 		</dependency>
 		
 		<dependency>
