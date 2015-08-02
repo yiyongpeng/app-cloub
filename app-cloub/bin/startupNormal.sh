@@ -3,7 +3,7 @@ cd `dirname $0`
 CLOUB_NAME=cloub
 LISTEN_PORT=9000
 DEBUG_PORT=9998
-LOG_PATH=../logs
+LOG_PATH=.
 JAVA_HOME=/usr/java/default
 
 cd ..
